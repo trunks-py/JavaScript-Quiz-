@@ -1,0 +1,50 @@
+body {
+    color: black
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width:100%;
+    border-radius: 4px;
+    background: blueviolet;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5 rem;
+    color: white;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%; 
+}
+}
+
+#heads-up-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align:center ;
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
